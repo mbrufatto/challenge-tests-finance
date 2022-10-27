@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct HomeData: Decodable, Equatable {
+struct HomeData: Decodable {
 
     let balance: Float
     let savings: Float
@@ -15,7 +15,7 @@ struct HomeData: Decodable, Equatable {
     let activity: [Activity]
 }
 
-struct Activity: Decodable, Equatable {
+struct Activity: Decodable {
     let name: String
     let price: Float
     let time: String
